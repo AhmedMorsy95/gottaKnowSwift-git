@@ -1,0 +1,28 @@
+class Solution {
+    func reverse(_ x: Int) -> Int {
+       var y=x
+        if(y<0){
+            y=y * (-1)
+        }
+        var z = get(x:y)
+        if(x<0){
+            z*=(-1)
+        }
+        var const=Int(Int32.max)
+        if z<const*(-1) || z>const{
+            return 0
+        }
+        return z
+    }
+    func get(x:Int)->Int{
+        var y=0
+        var cur=x
+        while(cur>0){
+            y*=10
+            y+=cur%10
+            cur/=10
+        }
+        return y
+    }
+
+}
