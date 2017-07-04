@@ -1,0 +1,16 @@
+class Solution {
+    func isPalindrome(_ x: Int) -> Bool {
+     var z=x 
+     var y=get(x:&z)
+     return x==y
+    }
+    func get(x:inout Int)->Int{
+        var y=0
+        while(x>0){
+            y*=10
+            y+=x%10
+            x/=10
+        }
+        return y
+    }
+}
