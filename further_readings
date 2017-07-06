@@ -2,9 +2,15 @@
 
 https://developer.apple.com/documentation/arkit
 
+https://github.com/olucurious/awesome-arkit/blob/master/README.md#projects
+
+
 */
 
-/*UIKit
+/*
+UIKit
+
+UIKit is a framework offered by Apple to make creation of UI faster and easier. So instead of drawing every text box and handling all user interactions on it through program, you simply create an object of UITextField and let it do the rest for you. You can use UIKit with Quartz2D and OpenGL for creating games/animations in your apps.
 
 https://developer.apple.com/documentation/uikit
 
@@ -13,6 +19,9 @@ https://developer.apple.com/library/content/referencelibrary/GettingStarted/Deve
 */
 
 /*core data
+
+as far as i got it it's how you manage data on iphone it's more like a library your program uses which is built in the iphone
+so that it can manage to save and retrieve data whenever it wants
 
 https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/CoreData/CreatingObjects.html
 
